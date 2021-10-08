@@ -1,0 +1,14 @@
+footer {
+    background-color: var(--bgprimary);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    bottom: 0;
+}
+
+@media (max-width: 320px) {
+    footer {
+        margin-top: 100px;
+        width: 550px;
+    }
+}

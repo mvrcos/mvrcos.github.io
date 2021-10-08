@@ -1,0 +1,71 @@
+.skills {
+    height: 55vh;
+    background-color: var(--bgsecundary);
+}
+
+.skills .texth2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    margin-bottom: 70px;
+    font-size: 1.7em;
+}
+
+.skills .ability {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.skills .ability .logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--bgprimary);
+    width: 156px;
+    height: 136px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+
+.skills .ability .logos:hover {
+    border: 2px solid var(--primary);
+    cursor: pointer;
+}
+
+.skills .ability .logos:hover .span-logo {
+    display: block;
+}
+
+.skills .ability .logos img {
+    width: 65px;
+}
+
+.skills .ability .logos .span-logo {
+    margin-top: 15px;
+    font-weight: bold;
+    color: white;
+    display: none;
+}
+
+@media (max-width: 320px) {
+    .skills {
+        height: 75vh;
+    }
+    .skills .ability {
+        flex-direction: column;
+        margin-right: 25px;
+    }
+
+    .skills .ability .logos {
+        margin-bottom: 15px;
+    }
+
+    .skills .ability .logos .span-logo {
+        font-size: 1.3em;
+    }
+}
