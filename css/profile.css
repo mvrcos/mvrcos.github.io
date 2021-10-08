@@ -61,10 +61,41 @@
     height: 100%;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 280px) {
     .profile {
-        width: 550px;
-        height:780px;
+        width: 100vw;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .container {
+        width: 100vw;
+        
+    }
+
+    .profile .text {
+        width: 100vw;
+    }
+
+    .profile .text p {
+        font-size: 1.5em;
+        letter-spacing: 0px;
+        line-height: 30px;
+    }
+
+    .profile .btnlinkedin {
+        width: 230px;
+        height: 70px;
+        margin: 30px auto 0px 30px;
+        
+    }
+}
+
+@media  (min-width: 281px) and (max-width: 539px) {
+    .profile {
+        width: 100vw;
+        height: auto;
+        padding-bottom: 30px;
     }
 
     .profile .text h2 {
@@ -72,7 +103,31 @@
     }
 
     .profile .text .textp {
-        font-size: 1.2em;
+        font-size: 1.3em;
+        letter-spacing: 2px;
+        line-height: 33px;
+    }
+
+    .profile .btnlinkedin {
+        margin: 70px auto 0px auto;
+    }
+}
+
+@media (min-width: 540px) and (max-width: 1024px) {
+    .profile {
+        width: 100vw;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .profile .text h2 {
+        font-size: 2.5em;
+    }
+
+    .profile .text .textp {
+        font-size: 2em;
+        letter-spacing: 2px;
+        line-height: 40px;
     }
 
     .profile .btnlinkedin {

@@ -6,9 +6,24 @@ footer {
     bottom: 0;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 280px) and (max-width: 539px) {
     footer {
-        margin-top: 100px;
-        width: 550px;
+        margin-top: 0px;
+        width: 100vw;
+        font-size: 0.9em;
     }
+}
+
+@media (min-width: 540px) and (max-width: 767px) {
+    footer {
+        margin-top: 80px;
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    footer {
+        font-size: 1em;
+    }
+
 }

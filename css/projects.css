@@ -43,28 +43,129 @@
     width: 400px;
 }
 
-@media (max-width: 320px) {
+@media  (max-width: 280px) {
+    .container {
+        width: 100vw;
+    }
+
     .projects {
-        width: 550px;
+        width: 100vw;
+        height: 550px;
     }
 
-    .projects .projects-info {
-        height: 400px;
-        margin-left: 30px;
-    }
-
-    .projects .projects-info .imgproject img {
-        max-width: 100%;
-        margin-left: 50px;
+    .projects .projects-info .textproject {
+        padding: 20px 0px 0px 20px;
+        width: 100%;
+        
     }
 
     .projects .projects-info .textproject h3 {
         font-size: 1.6em;
-        text-align: center;
+        margin-top: 60px;
+        
+    }
+
+    .projects .projects-info .imgproject {
+        display: none;
+    }
+}
+
+@media  (min-width: 281px) and (max-width: 539px) {
+    .container {
+        width: 100vw;
+    }
+
+    .projects {
+        width: 100vw;
+        height: 550px;
+    }
+    .projects .projects-info {
+        height: 370px;
+        width: 323px;
     }
 
     .projects .projects-info .textproject {
-        padding: 50px 0px 0px 30px;
+        padding: 0px 0px 0px 22px;
+        width: 100%;
         
+    }
+
+    .projects .projects-info .textproject h3 {
+        font-size: 1.8em;
+        margin-top: 60px;
+        
+    }
+
+    .projects .projects-info .imgproject {
+        display: none;
+    }
+}
+
+@media (min-width: 540px) and (max-width: 767px) {
+    .container {
+        width: 100vw;
+    }
+
+    .projects {
+        width: 100vw;
+        height: 550px;
+    }
+    .projects .projects-info {
+        height: 370px;
+        width: 430px;
+    }
+
+    .projects .projects-info .textproject {
+        padding: 20px;
+        width: 100%;
+        
+    }
+
+    .projects .projects-info .textproject h3 {
+        font-size: 2.1em;
+        margin-top: 30px;
+        
+    }
+
+    .projects .projects-info .imgproject {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        width: 100vw;
+    }
+
+    .projects {
+        width: 100vw;
+        height: 550px;
+    }
+    .projects .projects-info {
+        height: 370px;
+        width: 720px;
+    }
+
+    .projects .projects-info .textproject {
+        padding: 20px;
+        width: 100%;
+        
+    }
+
+    .projects .projects-info .textproject h3 {
+        font-size: 2.1em;
+        margin-top: 30px;
+        
+    }
+
+    .projects .projects-info .imgproject {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .projects .projects-info .imgproject img {
+        max-width: 180%;
     }
 }
