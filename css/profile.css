@@ -132,5 +132,28 @@
 
     .profile .btnlinkedin {
         margin: 70px auto 0px auto;
+        width: 330px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .profile {
+        width: 100vw;
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .profile .text h2 {
+        font-size: 3.2em;
+    }
+
+    .profile .text .textp {
+        font-size: 1.9em;
+        letter-spacing: 2px;
+        line-height: 36px;
+    }
+
+    .profile .btnlinkedin {
+        margin: 70px auto 0px auto;
+        width: 350px;
     }
 }
