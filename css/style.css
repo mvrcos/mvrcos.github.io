@@ -7,4 +7,8 @@
 @import "contact.css";
 @import "footer.css";
 
+body {
+    overflow-x: hidden;
+}
+
 

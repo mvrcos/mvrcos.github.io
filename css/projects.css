@@ -169,3 +169,41 @@
         max-width: 180%;
     }
 }
+
+@media (min-width: 1025px) {
+    .container {
+        width: 100vw;
+    }
+
+    .projects {
+        width: 100vw;
+        height: 550px;
+    }
+    .projects .projects-info {
+        height: 370px;
+        width: 720px;
+    }
+
+    .projects .projects-info .textproject {
+        padding: 20px;
+        width: 100%;
+        
+    }
+
+    .projects .projects-info .textproject h3 {
+        font-size: 2.1em;
+        margin-top: 30px;
+        
+    }
+
+    .projects .projects-info .imgproject {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .projects .projects-info .imgproject img {
+        max-width: 180%;
+    }
+}
