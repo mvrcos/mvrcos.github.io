@@ -180,13 +180,13 @@
         height: 550px;
     }
     .projects .projects-info {
-        height: 370px;
-        width: 720px;
+        width: 86%;
+        height: 390px;
     }
 
     .projects .projects-info .textproject {
-        padding: 20px;
-        width: 100%;
+        padding: 60px 50px 50px 100px;
+        width: 60%;
         
     }
 
