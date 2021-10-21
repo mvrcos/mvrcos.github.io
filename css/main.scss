@@ -94,9 +94,10 @@ body {
 		display: block;
 	}
 	.header {
-		li {
-			display: none;
-		}
+		height: 180px;
+	}
+	.menu {
+		flex-wrap: wrap;
 	}
 }
 /******************************************************************************
@@ -110,7 +111,7 @@ body {
 			border-radius: 50%;
 			border: 2px solid rgb(80, 80, 80);
 			box-shadow: 1px 1px 15px #2516c7;
-			animation: floating 3s cubic-bezier(0.37, 0.06, 0.62, 1) infinite;
+			animation: floating 3s cubic-bezier(0.37, 0.06, 0.62, 1) infinite alternate;
 		}
 		display: flex;
 		justify-content: center;
@@ -529,7 +530,7 @@ h2 {
 .projects {
 	background-color: $bgprimary;
 	height: 70vh;
-	padding-top: 120px;
+	padding-top: 80px;
 	.projects-info {
 		display: flex;
 		width: 86%;
@@ -965,4 +966,3 @@ footer {
         width: 100vw;
     }
 }
-

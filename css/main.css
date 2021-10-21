@@ -201,8 +201,12 @@ body {
     width: 100vw;
     display: block;
   }
-  .header li {
-    display: none;
+  .header {
+    height: 180px;
+  }
+  .menu {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 
@@ -237,8 +241,8 @@ body {
   border: 2px solid #505050;
   -webkit-box-shadow: 1px 1px 15px #2516c7;
           box-shadow: 1px 1px 15px #2516c7;
-  -webkit-animation: floating 3s cubic-bezier(0.37, 0.06, 0.62, 1) infinite;
-          animation: floating 3s cubic-bezier(0.37, 0.06, 0.62, 1) infinite;
+  -webkit-animation: floating 3s cubic-bezier(0.37, 0.06, 0.62, 1) infinite alternate;
+          animation: floating 3s cubic-bezier(0.37, 0.06, 0.62, 1) infinite alternate;
 }
 
 .intro .introinfo h1 {
@@ -300,7 +304,7 @@ h2 {
   }
 }
 
-@media (min-width: 281px) and (max-width: 539px) {
+@media (min-width: 375px) and (max-width: 539px) {
   .container {
     width: 100vw;
   }
@@ -712,7 +716,7 @@ h2 {
 .projects {
   background-color: #17161D;
   height: 70vh;
-  padding-top: 120px;
+  padding-top: 80px;
 }
 
 .projects .projects-info {
