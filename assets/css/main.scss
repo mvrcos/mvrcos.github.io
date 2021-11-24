@@ -11,6 +11,27 @@
     }
 }
 
+@keyframes mouse {
+    0%{
+        transform: translate3d(0,0,0);
+    }
+    25% {
+        transform: translate3d(-400px, -153px, 0px);
+    }
+    50% {
+        transform: translate3d(0px, -153px, 0px);
+    }
+    75% {
+        transform: translate3d(400px, -153px, 0px);
+    }
+    95% {
+        transform: translate3d(0,0,0);
+    }
+    100% {
+        transform: translate3d(0,0,0);
+    }
+}
+
 body {
     background-color: $corBg;
     overflow-x: hidden;
@@ -808,6 +829,7 @@ header {
             flex-wrap: wrap;
             gap: 30px;
             padding: 0 25px;
+            margin-bottom: 100px;
 
             .card {
                 @include FlexBox();
@@ -857,6 +879,55 @@ header {
                 }
             }
         }
+
+        .spaceMouse {
+            @include FlexBox();
+            width: 100%
+        }
+        .mouse {
+            @include FlexBox();
+            flex-direction: column;
+            transform: translate3d(0px, 0px, 0px);
+            animation: mouse 30s infinite; 
+
+            @media screen and (max-width: 779px) {
+                display: none;
+            }
+
+            @media screen and (min-width: 780px) and (max-width: 1159px) {
+                @keyframes mouse {
+                    0%{
+                        transform: translate3d(0,0,0);
+                    }
+                    25% {
+                        transform: translate3d(-282px, -412px, 0px);
+                    }
+                    50% {
+                        transform: translate3d(290px, -412px, 0px);
+                    }
+                    75% {
+                        transform: translate3d(0px, -150px, 0px);
+                    }
+                    95% {
+                        transform: translate3d(0,0,0);
+                    }
+                    100% {
+                        transform: translate3d(0,0,0);
+                    }
+                }
+            }
+            
+            i {
+                font-size: 1.3em;
+                z-index: 0;
+                color: #ffffffcb;
+            }
+            h3 {
+                font-size: 0.8em;
+                background-color: transparent;
+                padding: 7px;
+            }
+        }
     }
 }
 
@@ -865,7 +936,7 @@ header {
 footer {
     width: 100vw;
     @include FlexBox();
-    height: 100px;
+    height: 40px;
     background-color: $corPreta;
     color: $corBranca;
     font-weight: bold;

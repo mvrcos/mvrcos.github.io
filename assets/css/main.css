@@ -89,6 +89,60 @@ html {
   }
 }
 
+@-webkit-keyframes mouse {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  25% {
+    -webkit-transform: translate3d(-400px, -153px, 0px);
+            transform: translate3d(-400px, -153px, 0px);
+  }
+  50% {
+    -webkit-transform: translate3d(0px, -153px, 0px);
+            transform: translate3d(0px, -153px, 0px);
+  }
+  75% {
+    -webkit-transform: translate3d(400px, -153px, 0px);
+            transform: translate3d(400px, -153px, 0px);
+  }
+  95% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes mouse {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  25% {
+    -webkit-transform: translate3d(-400px, -153px, 0px);
+            transform: translate3d(-400px, -153px, 0px);
+  }
+  50% {
+    -webkit-transform: translate3d(0px, -153px, 0px);
+            transform: translate3d(0px, -153px, 0px);
+  }
+  75% {
+    -webkit-transform: translate3d(400px, -153px, 0px);
+            transform: translate3d(400px, -153px, 0px);
+  }
+  95% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+}
+
 body {
   background-color: #040404;
   overflow-x: hidden;
@@ -1153,6 +1207,7 @@ header .LarguraMaxContainerHeader .navbar .navList li a:hover {
       flex-wrap: wrap;
   gap: 30px;
   padding: 0 25px;
+  margin-bottom: 100px;
 }
 
 #contato .LarguraMaxContainerContact .contentContact .card {
@@ -1226,6 +1281,112 @@ header .LarguraMaxContainerHeader .navbar .navList li a:hover {
           filter: drop-shadow(0 0 10px #ffffff);
 }
 
+#contato .LarguraMaxContainerContact .spaceMouse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+#contato .LarguraMaxContainerContact .mouse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+          transform: translate3d(0px, 0px, 0px);
+  -webkit-animation: mouse 30s infinite;
+          animation: mouse 30s infinite;
+}
+
+@media screen and (max-width: 779px) {
+  #contato .LarguraMaxContainerContact .mouse {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 780px) and (max-width: 1159px) {
+  @-webkit-keyframes mouse {
+    0% {
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    25% {
+      -webkit-transform: translate3d(-282px, -412px, 0px);
+              transform: translate3d(-282px, -412px, 0px);
+    }
+    50% {
+      -webkit-transform: translate3d(290px, -412px, 0px);
+              transform: translate3d(290px, -412px, 0px);
+    }
+    75% {
+      -webkit-transform: translate3d(0px, -150px, 0px);
+              transform: translate3d(0px, -150px, 0px);
+    }
+    95% {
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    100% {
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+  }
+  @keyframes mouse {
+    0% {
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    25% {
+      -webkit-transform: translate3d(-282px, -412px, 0px);
+              transform: translate3d(-282px, -412px, 0px);
+    }
+    50% {
+      -webkit-transform: translate3d(290px, -412px, 0px);
+              transform: translate3d(290px, -412px, 0px);
+    }
+    75% {
+      -webkit-transform: translate3d(0px, -150px, 0px);
+              transform: translate3d(0px, -150px, 0px);
+    }
+    95% {
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    100% {
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+  }
+}
+
+#contato .LarguraMaxContainerContact .mouse i {
+  font-size: 1.3em;
+  z-index: 0;
+  color: #ffffffcb;
+}
+
+#contato .LarguraMaxContainerContact .mouse h3 {
+  font-size: 0.8em;
+  background-color: transparent;
+  padding: 7px;
+}
+
 footer {
   width: 100vw;
   display: -webkit-box;
@@ -1237,7 +1398,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100px;
+  height: 40px;
   background-color: #000000;
   color: #ffffff;
   font-weight: bold;
