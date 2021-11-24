@@ -329,12 +329,12 @@ header {
                 margin-bottom: 10px;
 
                 @media screen and (max-width: 768px) {
-                    font-size: 4em;
+                    font-size: 3.5em;
                     margin-bottom: 20px;
                 }
 
                 @media (min-width: 769px) and (max-width: 1280px) {
-                    font-size: 4.3em;
+                    font-size: 4em;
                     margin-bottom: 20px;
                 }
             }
@@ -355,16 +355,16 @@ header {
                 width: 200px;
                 height: 60px;
                 position: relative;
-                transform: translate(75%, 163%);
+                transform: translate(75%, 93%);
                 overflow: hidden;
                 margin-bottom: 20px;
 
                 @media screen and (max-width: 768px) {
-                    transform: translate(50%, 153%);
+                    transform: translate(40%, 93%);
                 }
 
                 @media (min-width: 769px) and (max-width: 1280px){
-                    transform: translate(60%, 153%);
+                    transform: translate(50%, 93%);
                 }
                 
                 &:hover{

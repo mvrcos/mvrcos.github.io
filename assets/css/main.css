@@ -540,14 +540,14 @@ header .LarguraMaxContainerHeader .navbar .navList li a:hover {
 
 @media screen and (max-width: 768px) {
   #apresentacao .LarguraMaxContainerApresentacao .text h1 {
-    font-size: 4em;
+    font-size: 3.5em;
     margin-bottom: 20px;
   }
 }
 
 @media (min-width: 769px) and (max-width: 1280px) {
   #apresentacao .LarguraMaxContainerApresentacao .text h1 {
-    font-size: 4.3em;
+    font-size: 4em;
     margin-bottom: 20px;
   }
 }
@@ -572,23 +572,23 @@ header .LarguraMaxContainerHeader .navbar .navList li a:hover {
   width: 200px;
   height: 60px;
   position: relative;
-  -webkit-transform: translate(75%, 163%);
-          transform: translate(75%, 163%);
+  -webkit-transform: translate(75%, 93%);
+          transform: translate(75%, 93%);
   overflow: hidden;
   margin-bottom: 20px;
 }
 
 @media screen and (max-width: 768px) {
   #apresentacao .LarguraMaxContainerApresentacao .text .button {
-    -webkit-transform: translate(50%, 153%);
-            transform: translate(50%, 153%);
+    -webkit-transform: translate(40%, 93%);
+            transform: translate(40%, 93%);
   }
 }
 
 @media (min-width: 769px) and (max-width: 1280px) {
   #apresentacao .LarguraMaxContainerApresentacao .text .button {
-    -webkit-transform: translate(60%, 153%);
-            transform: translate(60%, 153%);
+    -webkit-transform: translate(50%, 93%);
+            transform: translate(50%, 93%);
   }
 }
 
