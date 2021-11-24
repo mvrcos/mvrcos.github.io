@@ -44,6 +44,7 @@ header {
 
     @media screen and (max-width: 1025px) {
         position: fixed;
+        z-index: 999;
         top: 0;
     }
     
@@ -840,13 +841,13 @@ header {
 
             .email {
                 &:hover {
-                    filter: drop-shadow(0 0 10px #d93125ab);
+                    filter: drop-shadow(0 0 10px $corBranca);
                 }
             }
 
             .linkedin {
                 &:hover {
-                    filter: drop-shadow(0 0 10px #0073b1);
+                    filter: drop-shadow(0 0 10px $corBranca);
                 }
             }
 

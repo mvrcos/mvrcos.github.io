@@ -132,6 +132,7 @@ header {
 @media screen and (max-width: 1025px) {
   header {
     position: fixed;
+    z-index: 999;
     top: 0;
   }
 }
@@ -1211,13 +1212,13 @@ header .LarguraMaxContainerHeader .navbar .navList li a:hover {
 }
 
 #contato .LarguraMaxContainerContact .contentContact .email:hover {
-  -webkit-filter: drop-shadow(0 0 10px #d93125ab);
-          filter: drop-shadow(0 0 10px #d93125ab);
+  -webkit-filter: drop-shadow(0 0 10px #ffffff);
+          filter: drop-shadow(0 0 10px #ffffff);
 }
 
 #contato .LarguraMaxContainerContact .contentContact .linkedin:hover {
-  -webkit-filter: drop-shadow(0 0 10px #0073b1);
-          filter: drop-shadow(0 0 10px #0073b1);
+  -webkit-filter: drop-shadow(0 0 10px #ffffff);
+          filter: drop-shadow(0 0 10px #ffffff);
 }
 
 #contato .LarguraMaxContainerContact .contentContact .github:hover {
