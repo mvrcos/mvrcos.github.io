@@ -503,7 +503,7 @@ header {
 #conhecimentos {
     margin-bottom: 70px;
     .LarguraMaxContainer {
-
+        @include Centralizar();
         text-align: center;
         padding-top: 65px;
         color: $corBranca;
@@ -517,7 +517,7 @@ header {
                 font-size: 3em;
             }
         }
-
+        
         .contentSkills {
             width: 100%;
             display: flex;

@@ -2,6 +2,7 @@
 let activeMobileMenu = document.querySelector('.nav-listMobile')
 let hamburguerAnimation = document.querySelector('.hamburger--slider')
 let buttonMobile = document.querySelector('#mobile')
+var links = document.querySelectorAll(".nav-listMobile a");
 let aberto = false
 
 let mobile = function(){
@@ -19,6 +20,8 @@ let mobile = function(){
 }
 
 buttonMobile.onclick = mobile
+links.forEach(e => e.onclick = mobile)
+
 // --------------------------------- PROJETOS -------------------------------------------//
 const projeto1 = document.querySelector('.content1')
 projeto1.onclick = listaDeTarefas

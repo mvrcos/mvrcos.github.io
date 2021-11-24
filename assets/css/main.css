@@ -770,6 +770,8 @@ header .LarguraMaxContainerHeader .navbar .navList li a:hover {
 }
 
 #conhecimentos .LarguraMaxContainer {
+  max-width: 1240px;
+  margin: 0 auto;
   text-align: center;
   padding-top: 65px;
   color: #ffffff;
