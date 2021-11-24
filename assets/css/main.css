@@ -1314,64 +1314,9 @@ header .LarguraMaxContainerHeader .navbar .navList li a:hover {
           animation: mouse 30s infinite;
 }
 
-@media screen and (max-width: 779px) {
+@media screen and (max-width: 1159px) {
   #contato .LarguraMaxContainerContact .mouse {
     display: none;
-  }
-}
-
-@media screen and (min-width: 780px) and (max-width: 1159px) {
-  @-webkit-keyframes mouse {
-    0% {
-      -webkit-transform: translate3d(0, 0, 0);
-              transform: translate3d(0, 0, 0);
-    }
-    25% {
-      -webkit-transform: translate3d(-282px, -412px, 0px);
-              transform: translate3d(-282px, -412px, 0px);
-    }
-    50% {
-      -webkit-transform: translate3d(290px, -412px, 0px);
-              transform: translate3d(290px, -412px, 0px);
-    }
-    75% {
-      -webkit-transform: translate3d(0px, -150px, 0px);
-              transform: translate3d(0px, -150px, 0px);
-    }
-    95% {
-      -webkit-transform: translate3d(0, 0, 0);
-              transform: translate3d(0, 0, 0);
-    }
-    100% {
-      -webkit-transform: translate3d(0, 0, 0);
-              transform: translate3d(0, 0, 0);
-    }
-  }
-  @keyframes mouse {
-    0% {
-      -webkit-transform: translate3d(0, 0, 0);
-              transform: translate3d(0, 0, 0);
-    }
-    25% {
-      -webkit-transform: translate3d(-282px, -412px, 0px);
-              transform: translate3d(-282px, -412px, 0px);
-    }
-    50% {
-      -webkit-transform: translate3d(290px, -412px, 0px);
-              transform: translate3d(290px, -412px, 0px);
-    }
-    75% {
-      -webkit-transform: translate3d(0px, -150px, 0px);
-              transform: translate3d(0px, -150px, 0px);
-    }
-    95% {
-      -webkit-transform: translate3d(0, 0, 0);
-              transform: translate3d(0, 0, 0);
-    }
-    100% {
-      -webkit-transform: translate3d(0, 0, 0);
-              transform: translate3d(0, 0, 0);
-    }
   }
 }
 

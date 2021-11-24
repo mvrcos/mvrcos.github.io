@@ -882,7 +882,7 @@ header {
 
         .spaceMouse {
             @include FlexBox();
-            width: 100%
+            width: 100%;
         }
         .mouse {
             @include FlexBox();
@@ -890,33 +890,10 @@ header {
             transform: translate3d(0px, 0px, 0px);
             animation: mouse 30s infinite; 
 
-            @media screen and (max-width: 779px) {
+            @media screen and (max-width: 1159px) {
                 display: none;
             }
 
-            @media screen and (min-width: 780px) and (max-width: 1159px) {
-                @keyframes mouse {
-                    0%{
-                        transform: translate3d(0,0,0);
-                    }
-                    25% {
-                        transform: translate3d(-282px, -412px, 0px);
-                    }
-                    50% {
-                        transform: translate3d(290px, -412px, 0px);
-                    }
-                    75% {
-                        transform: translate3d(0px, -150px, 0px);
-                    }
-                    95% {
-                        transform: translate3d(0,0,0);
-                    }
-                    100% {
-                        transform: translate3d(0,0,0);
-                    }
-                }
-            }
-            
             i {
                 font-size: 1.3em;
                 z-index: 0;
