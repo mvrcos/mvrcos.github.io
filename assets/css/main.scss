@@ -296,6 +296,7 @@ header {
         height: 85vh;
         padding-top: 200px;
         color: $corBranca;
+        background-color: #0a0a0a;
 
         @media screen and (max-width: 768px) {
             height: 85vh;
@@ -440,8 +441,7 @@ header {
 // -------------------------------- Sobre Mim ----------------------------------//
 
 #sobremim {
-    width: 100vw;
-    background-color: #0a0a0a; 
+    width: 100vw; 
     padding-top: 50px;  
     @media screen and (max-width: 1024px) {
         padding: 0px 20px;
@@ -501,7 +501,8 @@ header {
 // -------------------------------- Conhecimentos ------------------------------//
 
 #conhecimentos {
-    margin-bottom: 70px;
+    padding-bottom: 50px;
+    background-color: #0a0a0a;
     .LarguraMaxContainer {
         @include Centralizar();
         text-align: center;
@@ -650,7 +651,7 @@ header {
 // --------------------------------- PROJETOS ----------------------------------------//
 #projetos {
     width: 100vw;
-    background-color: #0a0a0a;
+    
 
     .LarguraMaxContainerProjects {
         max-width: 1240px;

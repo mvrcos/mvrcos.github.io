@@ -481,6 +481,7 @@ header .LarguraMaxContainerHeader .navbar .navList li a:hover {
   height: 85vh;
   padding-top: 200px;
   color: #ffffff;
+  background-color: #0a0a0a;
 }
 
 @media screen and (max-width: 768px) {
@@ -682,7 +683,6 @@ header .LarguraMaxContainerHeader .navbar .navList li a:hover {
 
 #sobremim {
   width: 100vw;
-  background-color: #0a0a0a;
   padding-top: 50px;
 }
 
@@ -766,7 +766,8 @@ header .LarguraMaxContainerHeader .navbar .navList li a:hover {
 }
 
 #conhecimentos {
-  margin-bottom: 70px;
+  padding-bottom: 50px;
+  background-color: #0a0a0a;
 }
 
 #conhecimentos .LarguraMaxContainer {
@@ -949,7 +950,6 @@ header .LarguraMaxContainerHeader .navbar .navList li a:hover {
 
 #projetos {
   width: 100vw;
-  background-color: #0a0a0a;
 }
 
 #projetos .LarguraMaxContainerProjects {
